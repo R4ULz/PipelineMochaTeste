@@ -19,7 +19,7 @@ describe('Sistema de Pedidos', () => {
         pedido.adicionarItem('Pizza', 20.0, 2);
         pedido.adicionarItem('Batata Frita', 15.0, 1);
         const total = pedido.calcularTotal();
-        assert.strictEqual(total, 66.0);
+        assert.strictEqual(total, 60.0);
         //o valor é maior pois existem 5 reais de taxa de entrega
     });
 
